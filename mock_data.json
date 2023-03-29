@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Best Picture",
+      "nominees": [
+        {
+          "id": 1,
+          "name": "Harry Potter",
+          "description": "Goblet of Fire",
+          "image": "https://assets.altarofgaming.com/wp-content/uploads/2022/01/harry-potter-and-the-goblet-of-fire-game-cover-altar-of-gaming-150x150.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Cocaine Bear",
+          "description": "Bear on cocaine attacks random people",
+          "image": "https://addictionrecoveryebulletin.org/wp-content/uploads/2021/03/addiction-recovery-ebulletin-Cocaine-Bear-150x150.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Mr Nobody",
+          "description": "Parallel lives",
+          "image": "https://www.joblo.com/wp-content/uploads/2014/02/bd-mrnobody-150x150.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Best Director",
+      "nominees": [
+        {
+          "id": 4,
+          "name": "Michael Bay",
+          "description": "Explosions",
+          "image": "https://st3.depositphotos.com/5326338/12851/i/150/depositphotos_128510246-stock-photo-director-michael-bay.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Tarantino",
+          "description": "Excessive use of very rude words",
+          "image": "https://www.looktothestars.org/photo/2672-quentin-tarantino/teaser-1503327397.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Christopher Nolan",
+          "description": "Likes to hire Michael Caine",
+          "image": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_SX150_CR0,0,150,150_.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Best Actor",
+      "nominees": [
+        {
+          "id": 7,
+          "name": "Dave Bayley",
+          "description": "Very famous",
+          "image": "https://www.looktothestars.org/photo/8839-henry-cavill/teaser-1503324573.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Kieran McCabe",
+          "description": "Also famous & handsome & genius",
+          "image": "https://www.animationmagazine.net/images/articles/prince_charm_150.gif"
+        },
+        {
+          "id": 9,
+          "name": "Mostafa Gholami",
+          "description": "Iranian superstar",
+          "image": "https://cdn.superlivescore.net/people/17/17684.png"
+        }
+      ]
+    }
+  ]
+}

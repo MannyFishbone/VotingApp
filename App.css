@@ -1,0 +1,112 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #0d2436;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nominee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #009b86;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+    .nominee:hover {
+        background-color: #34ac9c;
+        color: #cccccc;
+    }
+
+    .nominee.selected {
+        background-color: #009b86;
+    }
+
+        .nominee.selected:hover {
+            background-color: #34ac9c;
+        }
+
+    .nominee img {
+        max-width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+.submit-button {
+    background-color: #009b86;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    .submit-button:hover {
+        background-color: #34ac9c;
+    }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #0d2436;
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+    .modal-content h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .modal-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal-content li {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .modal-content button {
+        background-color: #009b86;
+        color: #ffffff;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+        .modal-content button:hover {
+            background-color: #34ac9c;
+        }

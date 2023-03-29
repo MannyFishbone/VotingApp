@@ -1,0 +1,76 @@
+/* App styles */
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Nominee list styles */
+.nominee {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+    .nominee.selected {
+        background-color: #ffd700;
+    }
+
+    .nominee img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+/* Category styles */
+.category {
+    margin-bottom: 20px;
+}
+
+    .category h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+/* Results modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+    .modal-content h2 {
+        margin-bottom: 20px;
+    }
+
+    .modal-content ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal-content li {
+        margin-bottom: 10px;
+    }
+
+    .modal-content button {
+        margin-top: 20px;
+    }
